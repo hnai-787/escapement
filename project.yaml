@@ -1,0 +1,57 @@
+name: Processor Design — Embedded Calculator
+slug: processor-design-embedded-calculator
+
+category: software
+subcategory: "Computer Organization and Assembly Language coursework"
+
+status: completed
+
+visibility: public
+
+description:
+  short: "A designed CPU architecture (control unit, ALU, registers, bus) for a basic calculator, implemented in real x86 assembly."
+  long: |
+    Designs a simple processor architecture — control unit, ALU, registers,
+    and a bidirectional/unidirectional bus layout — for a calculator
+    supporting ADD/SUB/MUL/DIV/AND/OR, then implements it as real 32-bit
+    x86 assembly (MASM/Irvine32) that prompts for two operands and an
+    opcode, computes the result, and handles divide-by-zero and invalid
+    opcodes. Built for a Computer Organization and Assembly Language course
+    (Air University, Semester 3, Fall 2024).
+
+technologies: ["x86 Assembly", "MASM", "Irvine32"]
+tags: ["software", "assembly", "computer-architecture", "cpu-design"]
+
+repository:
+  provider: github
+  visibility: public
+  sync: true
+
+portfolio:
+  enabled: true
+  featured: false
+
+documentation:
+  readme: true
+  case_study: false
+
+dates:
+  started: null
+  completed: null
+
+links:
+  github: null
+  demo: null
+  documentation: null
+
+assets:
+  hero: diagrams/CPU_BlockDiagram.png
+  screenshots:
+    - diagrams
+
+achievements: []
+
+metrics:
+  - label: "Documented test cases passed"
+    value: "4/4"
+    verified: true
