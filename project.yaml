@@ -9,18 +9,25 @@ status: completed
 visibility: public
 
 description:
-  short: "A designed CPU architecture (control unit, ALU, registers, bus) for a basic calculator, implemented in real x86 assembly."
+  short: "cpu16: a C++ instruction-set simulator and assembler that actually implements the diagrammed CPU (CU/ALU/register-file/RAM-ROM/bus), replacing x86 calls that never touched the design."
   long: |
-    Designs a simple processor architecture — control unit, ALU, registers,
-    and a bidirectional/unidirectional bus layout — for a calculator
-    supporting ADD/SUB/MUL/DIV/AND/OR, then implements it as real 32-bit
-    x86 assembly (MASM/Irvine32) that prompts for two operands and an
-    opcode, computes the result, and handles divide-by-zero and invalid
-    opcodes. Built for a Computer Organization and Assembly Language course
-    (Air University, Semester 3, Fall 2024).
+    Started as a Computer Organization and Assembly Language course
+    project (Air University, Semester 3, Fall 2024) that diagrammed a
+    custom CPU (control unit, ALU, a 4-register array R1/R2/R3/RES, a
+    RAM/ROM memory unit, address/data/control buses) but implemented it
+    as plain x86 assembly that never touched a register file or fetched
+    an instruction from memory. Rebuilt into cpu16: a real 16-bit
+    instruction-set simulator with genuine binary machine-word encoding,
+    a fetch-decode-execute cycle, a two-pass assembler, and a
+    per-instruction trace exposing real address/data/control-bus
+    activity -- making the diagrammed architecture executable for the
+    first time. Reproduces the original's exact documented test cases
+    (5+3=8, 6x7=42, 20/4=5) as real assembled-and-executed programs. The
+    original x86 source, diagrams, report, and presentation are preserved
+    unmodified under archive/academic-original/.
 
-technologies: ["x86 Assembly", "MASM", "Irvine32"]
-tags: ["software", "assembly", "computer-architecture", "cpu-design"]
+technologies: ["C++", "C++20", "CMake", "Catch2", "Computer Architecture"]
+tags: ["software", "computer-architecture", "cpu-design", "instruction-set-simulator", "assembler", "cli-tool"]
 
 repository:
   provider: github
@@ -52,6 +59,12 @@ assets:
 achievements: []
 
 metrics:
-  - label: "Documented test cases passed"
+  - label: "Documented test cases passed (original coursework artifact)"
     value: "4/4"
+    verified: true
+  - label: "Unit tests passing (Catch2)"
+    value: "140/140 assertions (38 test cases)"
+    verified: true
+  - label: "Original ADD/MUL/DIV test cases reproduced on real simulated hardware"
+    value: "3/3 (5+3=8, 6x7=42, 20/4=5)"
     verified: true
