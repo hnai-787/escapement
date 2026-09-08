@@ -1,4 +1,4 @@
-# Processor Design — Embedded Calculator → cpu16 (Instruction-Set Simulator)
+# cpu16 — Instruction-Set Simulator (Embedded Calculator Processor Design)
 
 ## Course Information
 
