@@ -12,10 +12,7 @@ into this workspace as an independent project on 2026-09-07.
 
 ## Assumptions
 
-- Co-author "Sardar Ahmad Ali (232147)" is credited in
-  `docs/COAL_Final_Report.docx`. The course-info table that used to
-  surface this in the README was later removed along with other academic
-  framing.
+None.
 
 ## Remaining work
 
