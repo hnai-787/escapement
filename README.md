@@ -1,6 +1,8 @@
-# cpu16 — Instruction-Set Simulator (Embedded Calculator Processor Design)
+# Escapement — 16-bit Instruction-Set Simulator
 
-![cpu16 banner](assets/brand/cpu16-readme-banner.png)
+![escapement banner](assets/brand/escapement-readme-banner.png)
+
+*Ships as the `cpu16` CLI/library — see below.*
 
 
 ## Course Information
@@ -177,7 +179,7 @@ Memory map (10-bit / 1024-word address space):
 
 ## How It Works
 
-![How cpu16 works](assets/brand/cpu16-how-it-works.png)
+![How escapement works](assets/brand/escapement-how-it-works.png)
 
 ## Repository Structure
 

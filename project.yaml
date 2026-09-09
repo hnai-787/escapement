@@ -1,5 +1,5 @@
-name: cpu16
-slug: cpu16
+name: Escapement
+slug: escapement
 
 category: software
 subcategory: "Computer Organization and Assembly Language coursework"
@@ -47,12 +47,12 @@ dates:
   completed: null
 
 links:
-  github: https://github.com/Hussain-Ali-787/cpu16
+  github: https://github.com/Hussain-Ali-787/escapement
   demo: null
   documentation: null
 
 assets:
-  hero: assets/brand/cpu16-readme-banner.png
+  hero: assets/brand/escapement-readme-banner.png
   screenshots:
     - diagrams
 
