@@ -1,5 +1,8 @@
 # cpu16 — Instruction-Set Simulator (Embedded Calculator Processor Design)
 
+![cpu16 banner](assets/brand/cpu16-readme-banner.png)
+
+
 ## Course Information
 
 | Field | Details |
@@ -171,6 +174,10 @@ Memory map (10-bit / 1024-word address space):
   fail-closed paths, and — most importantly — the original project's
   exact documented test cases (5+3=8, 6×7=42, 20÷4=5) reproduced as real
   assembled-and-executed programs.
+
+## How It Works
+
+![How cpu16 works](assets/brand/cpu16-how-it-works.png)
 
 ## Repository Structure
 

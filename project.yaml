@@ -52,7 +52,7 @@ links:
   documentation: null
 
 assets:
-  hero: diagrams/CPU_BlockDiagram.png
+  hero: assets/brand/cpu16-readme-banner.png
   screenshots:
     - diagrams
 
