@@ -5,18 +5,9 @@
 *Ships as the `cpu16` CLI/library — see below.*
 
 
-## Course Information
-
-| Field | Details |
-|---|---|
-| Course | Computer Organization and Assembly Language |
-| Semester | Semester 3 — Fall 2024 |
-| University | Air University, Islamabad |
-| Students | Hussain Ali (232095), Sardar Ahmad Ali (232147) |
-
 The original x86/Irvine32 assembly, the architecture diagrams, and the
 report/presentation are preserved unmodified under
-[`archive/academic-original/`](archive/academic-original/).
+[`archive/original/`](archive/original/).
 
 ## Overview
 
@@ -191,7 +182,7 @@ processor-design-embedded-calculator/
   src/             implementations + main.cpp (CLI)
   tests/           38 Catch2 test cases
   examples/        add.asm, multiply.asm, divide.asm, countdown.asm
-  archive/academic-original/   original x86 asm, diagrams, report, presentation, untouched
+  archive/original/   original x86 asm, diagrams, report, presentation, untouched
   project.yaml
 ```
 
@@ -255,7 +246,7 @@ real, captured output: `Output log: 5 4 3 2 1`.
 3. Run the worked example above with `--trace cycle` and compare against
    the bus diagram.
 4. Run `examples/countdown.asm` to see a real loop execute.
-5. Compare against `archive/academic-original/code/main.asm` for the
+5. Compare against `archive/original/code/main.asm` for the
    original x86 implementation.
 
 ## Testing
@@ -265,10 +256,10 @@ $ ./build/cpu16_tests.exe
 All tests passed (140 assertions in 38 test cases)
 ```
 
-## Original Results (academic artifact)
+## Original Results (original artifact)
 
 Reproduced exactly, on real simulated hardware this time — see
-`archive/academic-original/` for the original x86 source, diagrams,
+`archive/original/` for the original x86 source, diagrams,
 report, and presentation:
 
 | NUM1 | NUM2 | Opcode | Result | Reproduced by |
@@ -306,5 +297,5 @@ No secrets, credentials, or private data are involved.
 
 ## Ethical Notice
 
-Academic coursework exercise; the simulator only executes in-memory,
+Personal project; the simulator only executes in-memory,
 synthetic programs. No ethical concerns apply.

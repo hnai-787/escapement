@@ -20,7 +20,7 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
   register file, RAM/ROM memory unit, address/data/control buses),
   replacing x86/Irvine32 assembly that never touched the design. Original
   source, diagrams, report, and presentation preserved unmodified under
-  `archive/academic-original/`.
+  `archive/original/`.
 - A real 16-bit ISA (`include/cpu16/isa.hpp`): 16 opcodes filling the full
   4-bit opcode space, three instruction formats (register-register,
   register-immediate/address, branch), verified against a hand-worked
