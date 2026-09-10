@@ -6,8 +6,9 @@
 
 
 The original x86/Irvine32 assembly, the architecture diagrams, and the
-report/presentation are preserved unmodified under
-[`archive/original/`](archive/original/).
+report/presentation have been moved out of this repository into a
+personal academic-archive repo. `TODO`: link to that repo once it's
+published.
 
 ## Overview
 
@@ -175,16 +176,19 @@ Memory map (10-bit / 1024-word address space):
 ## Repository Structure
 
 ```text
-processor-design-embedded-calculator/
-  README.md, PROJECT_NOTES.md, CHANGELOG.md
+escapement/
+  README.md, CHANGELOG.md
   CMakeLists.txt, build.sh
   include/cpu16/   isa, cpu, assembler, report
   src/             implementations + main.cpp (CLI)
   tests/           38 Catch2 test cases
   examples/        add.asm, multiply.asm, divide.asm, countdown.asm
-  archive/original/   original x86 asm, diagrams, report, presentation, untouched
   project.yaml
 ```
+
+The original x86 assembly, diagrams, report, and presentation are
+preserved outside this repository (see the note at the top of this
+README).
 
 ## Building from source
 
@@ -246,8 +250,9 @@ real, captured output: `Output log: 5 4 3 2 1`.
 3. Run the worked example above with `--trace cycle` and compare against
    the bus diagram.
 4. Run `examples/countdown.asm` to see a real loop execute.
-5. Compare against `archive/original/code/main.asm` for the
-   original x86 implementation.
+5. The original x86 implementation is archived outside this repository
+   (see the note at the top of this README) if you want to compare
+   against it.
 
 ## Testing
 
@@ -258,9 +263,9 @@ All tests passed (140 assertions in 38 test cases)
 
 ## Original Results (original artifact)
 
-Reproduced exactly, on real simulated hardware this time — see
-`archive/original/` for the original x86 source, diagrams,
-report, and presentation:
+Reproduced exactly, on real simulated hardware this time. The original
+x86 source, report, and presentation are archived outside this
+repository (see the note at the top of this README):
 
 | NUM1 | NUM2 | Opcode | Result | Reproduced by |
 |---|---|---|---|---|

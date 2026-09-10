@@ -9,7 +9,23 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
 ### Changed
 
+- The original x86/Irvine32 assembly, architecture-diagram copies, report,
+  and presentation under `archive/original/` (unreferenced by current
+  code; the actively-used `diagrams/` folder at the repo root is
+  untouched) moved out of this repository into a personal
+  academic-archive repo; README updated with a `TODO` pointer until that
+  repo is published.
+- Removed `PROJECT_NOTES.md`; its content was already fully covered by
+  the README's own "Design decisions" section.
+- The original `.docx`/`.pptx` report/presentation (which named a real
+  collaborator) and the mention of them were removed from this repo
+  earlier in this project's history.
+
 ### Fixed
+
+- README's Repository Structure still said
+  `processor-design-embedded-calculator/` from before the product-name
+  rebrand; corrected to `escapement/`.
 
 ## [1.0.0] - 2026-09-08
 

@@ -23,8 +23,9 @@ description:
     activity -- making the diagrammed architecture executable for the
     first time. Reproduces the original's exact documented test cases
     (5+3=8, 6x7=42, 20/4=5) as real assembled-and-executed programs. The
-    original x86 source, diagrams, report, and presentation are preserved
-    unmodified under archive/original/.
+    original x86 source, report, and presentation have been moved to a
+    personal academic-archive repo (not yet published); the architecture
+    diagrams remain in this repo's diagrams/ folder.
 
 technologies: ["C++", "C++20", "CMake", "Catch2", "Computer Architecture"]
 tags: ["software", "computer-architecture", "cpu-design", "instruction-set-simulator", "assembler", "cli-tool"]
@@ -47,7 +48,7 @@ dates:
   completed: null
 
 links:
-  github: https://github.com/Hussain-Ali-787/escapement
+  github: https://github.com/hnai-787/escapement
   demo: null
   documentation: null
 
